@@ -1,0 +1,196 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Forzar que todo el contenedor llene la pantalla completa */
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h3, h4 {
+  font-weight: bold;
+}
+
+.bg-primary {
+  background-color: #00388d;
+}
+
+.bg-info {
+  background-color: #00388d;
+}
+
+.text-primary {
+  color: #00388d;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffcc00;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: auto; /* Empuja el footer al fondo */
+  padding: 0;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+  flex-grow: 1; /* Hacer que las filas ocupen el espacio restante */
+}
+
+.col-4, .col-8 {
+  padding: 0;
+  margin: 0;
+}
+
+/* Centrando el contenido del encabezado (nombre y profesión) */
+.row.bg-primary.text-white.py-3.text-center {
+  display: flex;
+  justify-content: center; /* Centrado horizontal */
+  align-items: center;     /* Centrado vertical */
+  height: 100%;            /* Ocupa todo el alto disponible */
+}
+
+/* Centrando el contenido de la columna izquierda */
+.col-4.text-center.bg-info.py-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centrar verticalmente */
+  align-items: center;     /* Centrar horizontalmente */
+  text-align: center;
+}
+
+/* Centrando el contenido de la columna derecha */
+.col-8.bg-white.py-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centrar verticalmente */
+  align-items: center;     /* Centrar horizontalmente */
+}
+
+.text-center img {
+  max-width: 150px;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Forzar que todo el contenedor llene la pantalla completa */
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h3, h4 {
+  font-weight: bold;
+}
+
+.bg-primary {
+  background-color: #3366CC !important;
+}
+
+.bg-info {
+  background-color: #00388d !important;
+}
+
+.text-primary {
+  color: #003366 !important;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffcc00;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: auto; /* Empuja el footer al fondo */
+  padding: 0;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+  flex-grow: 1; /* Hacer que las filas ocupen el espacio restante */
+}
+
+.col-4, .col-8 {
+  padding: 0;
+  margin: 0;
+}
+
+/* Centrando el contenido del encabezado (nombre y profesión) */
+.row.bg-primary.text-white.py-3.text-center {
+  display: flex;
+  justify-content: center; /* Centrado horizontal */
+  align-items: center;     /* Centrado vertical */
+  height: 100%;            /* Ocupa todo el alto disponible */
+}
+
+/* Centrando el contenido de la columna izquierda */
+.col-4.text-center.bg-info.py-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centrar verticalmente */
+  align-items: center;     /* Centrar horizontalmente */
+  text-align: center;
+}
+
+/* Centrando el contenido de la columna derecha */
+.col-8.bg-white.py-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centrar verticalmente */
+  align-items: center;     /* Centrar horizontalmente */
+}
+
+.text-center img {
+  max-width: 150px;
+}
